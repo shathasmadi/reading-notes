@@ -11,6 +11,7 @@ A growth mindset, proposed by Stanford professor Carol Dweck in her book Mindset
 #### this is heading 4 
 
 _Shathas **Addition**_ 
+
 🔢 3 reminders to yourself of how to keep yourself in a growth mindset :
 * Replace the world “failing” with “learning.” 
 * Listen to the mindset voice inside of you.
