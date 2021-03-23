@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# About-Me
 
-You can use the [editor on GitHub](https://github.com/shathasmadi/about-me/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Shatha Smadi 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### this is heading three
+ Explain growth mindset..
 
-### Markdown
+A growth mindset, proposed by Stanford professor Carol Dweck in her book Mindset, describes people who believe that their success depends on time and effort. People with a growth mindset feel their skills and intelligence can be improved with effort and persistence. They embrace challenges, persist through obstacles, learn from criticism and seek out inspiration in others’ success
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+#### this is heading 4 
 
-# Header 1
-## Header 2
-### Header 3
+_Shathas **Addition**_ 
+🔢 3 reminders to yourself of how to keep yourself in a growth mindset :
+* Replace the world “failing” with “learning.” 
+* Listen to the mindset voice inside of you.
+* Talk back with a growth mindset voice
 
-- Bulleted
-- List
+[FaceBook](https://www.facebook.com/) 
 
-1. Numbered
-2. List
+![piano](https://static.vecteezy.com/system/resources/thumbnails/000/096/473/small/piano-recital-vector-illustration.jpg)
+> Shatha suggestion!
+- [x] Shatha 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shathasmadi/about-me/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
