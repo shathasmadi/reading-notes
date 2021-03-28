@@ -26,5 +26,5 @@ It checks a condition firstly then it will execute the code block as soon as the
 Types of loops:
 For : The condition in this type of looping will be a counter that counts numbers; It will execute the code as many as the counter counts [for (i= 0 Initial value where it have to start from ; i<5 The condition that keeps checking according to it’s value ; i++> The counter and it can be counted incrementally or decrementally)].
 While : This type of looping has nothing to do with the counting, as soon as the condition is true the code will be executed.
-Do..While : It is pretty much like while instead of executing the statement in the curly braces at least once even if the condition is false.
+Do.While : It is pretty much like while instead of executing the statement in the curly braces at least once even if the condition is false.
 
