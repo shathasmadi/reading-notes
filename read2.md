@@ -1,147 +1,107 @@
+TEXT
 
-html
+Headings : <h1> the biggest header <h2> <h3> <h4> <h5> <h6> the smallest heading
 
-Definitions list:
-Structural markup: the elements that you can use to 
-describe both headings and paragraphs
+Paragraph: <p>
 
-Semantic markup: which provides extra information; such 
-as where emphasis is placed in a sentence
+Bold: <b> 
 
-Headings to provide a heading for the web sit
+Italic: <i>
 
-Cheat sheet:
+Superscript  : <sup>  characters that should be superscript 
 
+Subscrip: <sub> contain characters that should be subscript. 
 
-p To create a paragraph
+Line breaks: <br> 
 
-<b> text bold
-<i> text Italic
-<br />  line break
-<hr /> horizontal line
-<strong> to indicates that its 
-content has strong importance.
+Strong: <strong>
 
-<blockquote> is used for longer quotes that take 
-up an entire paragraph.
+Emphasis: <em>
 
-<cite> element can be used 
-to indicate where the citation is 
-from.
+Quote: <blockquote> for long quotes <q> for shorter quotes
 
-The <dfn> element is used to 
-indicate the defining instance of 
-a new term
+Abbreviations : <abbr>
 
-<address>  to contain 
-contact details for the author of 
-the page
+Citation: <cite>
 
-<ins>
-<del>
-Changes to Content
+CSS INTRODUCTION
 
+CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. A CSS rule contains two parts: a selector and a declaration.
 
-CSS 
-what is css Cascading Style Sheets
+Selctor{declariton} : declarations sit inside curly brackets and each made up of two parts: a property and a value, separated by a colon.
 
-why css?
- CSS allows you to create rules that specify how the content of 
-an element should appear
+USING EXTERNAL CSS :
 
-how css 
-CSS works by associating rules with HTML elements. These rules govern 
-how the content of specified elements should be displayed.
-example
+<link> : inside the head tag, to tell the browser where to find the CSS file used to style the page.
 
-body {
- font-family: arial;
- background-color: rgb(185,179,175);}
-h1 {
- color: rgb(255,255,255);}
+link tag should use three attributes:
 
-three way to apply css in the page 
-1- Inline : <p style="color= red"> </p>
-2-Internal: <style type="text/css"> </style>
-3-External: <link href="css/styles.css" type="text/css"> 
+-href : it specifies the path to the CSS file
 
-CSS rules usually appear in a separate document, 
-although they may appear within an HTML page.
+-type: specifies the type of document being linked to.
 
-css Selectors
-Type Selector...> h1, h2, h3 {}
-class selector ...> .not{}
-id selector ...> # note{
-}
+-rel:  specifies the relationship between the HTML page and the file it is linked to. 
 
-qiuz 
-1-write three kind of selectors in css?
-2- write three element of html
+USING INTERNAL CSS: <style> tag inside the head
 
-javascript
+BASIC JAVASCRIPT INSTRUCTIONS 
 
-WHAT:Javascript is a programming language that allows you to make the web pages interactive.
+script: 
+it is series of instructions that a computer can follow to achieve a goal. and to write a script you need to set your goals and a list of tasks you need to accomplish, define the goal, design the script (flow chart), code each step. each task may be broken into many steps, and everything you wrote or design in you in your flow chart needs to be written in a language that the computer can understand.
 
-WHY:Javascript convert a web page to be dynamic.
+VARIABLES: 
 
-HOW: we can use javascript in our code either internal<script> </script> or external <script src="script.js"></script>
- example
-var today= new Date{); 
-var hourNow = today.getHours{) ;
+Declaring: creating a variable and giving it a name
 
-Definitions list:
-A script..> is a series of instructions that a computer can follow one-by-one. 
-Each individual instruction or step is known as a statement.
+var quantity;
 
+ASSING VARIBLE TO A VALUE: to tell what information you like to store in it.
 
-{}...> curly braces
+var quantity = 6;
 
-JAVASCRIPT IS CASE SENSITIVE...> that mean if you write A and a they are different.
+OPPERATORS: they allow programmers to create a single value from one or more values. 
 
-comments...>o explain what your code does. 
-They help make your code easier to read and understand. 
+arithmetic operators:
 
-variables...> to store a value
+addition + , subtraction - , division / , multiplication * , modules %. 
 
-An array...> is a special type of variable. It doesn't 
-just store one value; it stores a list of values.
+ (Links to an external site.)string operator :
 
-An expression evaluates into (results in) a single value. Broadly speaking 
-there are two types of expressions. 
-1-ASSIGN A VALUE TO A VARIABLE
-2- USE TWO OR MORE VALUES TO RETURN A SINGLE VALUE 
+( +) is the only string operator, and it is used to join two or more strings to create a single value.
 
+DECISIONS AND LOOPS
 
-Cheat sheet:
-var x ...< declare a variable
-x = ...> assign a value.
+comparison operators usually return values of true or false.
 
-Data type
-(1, 1.2) number
-true or false boolean
-"abcd" string
+1- == equal to: compares two values to see if they are the same 
 
-var colors; 
-colors ['white', 'black', ' custom'];...> declare array.
+2- != not equal to: compare two values to see if they are not the sams.
 
-Each item in an array is 
-automatically given a number 
-called an index.
+3- === strict equal to: checks both value and data type is the same
 
-var itemThree; 
-itemThree = col ors [2] ;...> to access the third number in array.
+4- !== strict not equal to: checks both the value and the data type is not the same
 
-var numColors ; 
-numColors =col ors. length;...> to know number of items in the an array
+5- > greater than 
 
- 
+6- < less than 
 
-Expressions + Operators
+7- >= greater than or equal to
 
-expression 1-EXPRESSIONS that just assign a value to a variable such as (var color = ‘beige’; ) 2- EXPRESSIONS THAT USE TWO OR MORE VALUES TO RETURN A SINGLE-VALUE such as (var area = 3 * 2; )
+8- <= less than or equal to 
 
-ARITHMETI C OPERATORS such as (+ ,- , *, /,++,–,%).
+logical operators allow you to compare the results more than one.
+1- && logical and: test more than one condition 
 
-STRING OPERATOR like + symbol that connects two string together
+2-|| logical or: test at least one condition 
 
- 
+3-! logical not: takes a single boolean value and inverts it 
+
+loops check a condition and there is three types:
+
+1- for: if you need to run a code specific number of time 
+
+2- while: if you don't know how many times you want to run the code
+
+3- do while: it will always run the condition inside the curly brackets 
+
+loop counters: its made of three statements initialization, condition, and update.
