@@ -20,7 +20,7 @@ I am Shatha Al-Smadi, I am 24 years old. I studied software engineering at the H
 |assignment |link|
 |-----------|----|
 |read1|[calss1](read1.md)|
-|read2|[class2]()|
+|read2|[class2](read2.md)|
 |read3|[class3]()|
 |read4|[class4]()|
 |read5|[class5]()|
