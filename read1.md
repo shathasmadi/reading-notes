@@ -11,17 +11,32 @@ Tags usually come in pairs. The opening tag denotes the start of a piece of cont
 Opening tags can carry attributes, which tell us more about the content of that element.
 To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
 <meta> : The <meta> element lives inside the <head> element and contains information about that web page. ` description, keywords, robots, author, pragma, expires, ` There are some characters that are used in and reserved by HTML code.
-HTML Chapter 17: “HTML5 Layout” (pp.428-451) The<header> and <footer> elements can be used for:
-The main header or footer that appears at the top or bottom of every page on the site.
-A header or footer for an individual<article> or <section> within the page. <nav> element is used to contain the major navigational blocks on the site such as the primary site navigation.
-<article> element acts as a container for any section of a page that could stand alone and potentially be syndicated. <aside> element has two purposes, depending on whether it is inside an <article> element or not. <section> element groups related content together, and typically each section would have its own heading. <hgroup> element is to group together a set of one or more <h1> through <h6>elements so that they are treated as one single heading.
-HTML Chapter 18: “Process & Design” (pp.452-475)
-It’s important to understand who your target audience is, why they would come to your site, what information they want to find and when they are likely to return.
-Site maps allow you to plan the structure of a site.
-Wireframes allow you to organize the information that will need to go on each page.
-Design is about communication. Visual hierarchy helps visitors understand what you are trying to tell them.
-You can differentiate between pieces of information using size, color, and style.
-You can use grouping and similarity to help simplify the information you present.
-From the Duckett JS book:
-A script is a series of instructions that the computer can follow in order to achieve a goal.
-Linking to a javascript file from an HTML page. ``` <!DOCTYPE html>
+
+Chapter 17: HTML Layout
+Header tag used in top main page contains title and link.
+Footer tag its latest section in body we add inside it like copy ,phone
+Nav tag its used to indicated that block of link
+Article tag acts container for any section of page
+Section tag group related content together and typically each section have own heading h1,h2
+Heading group used hgroup tag which group h1,h2,h6 tag together .
+Div tag used when the tags not suitable
+Chapter 18 : Process and Design
+Wireframe :is a simple sketch of the key information that need to go each page of a site.
+The primary aim of any kind of visual design is to communicate, organizing and priority information on page to help used to understand .
+Grouping and similarity to help simplify the information you present
+sit map allow you to plan the structure of a site.
+Javascript
+-script is series of instruction that a computer can follow it to achieve a goal
+
+-to approach writtin a script break down your goal into a series of tasks and then work out each step needed to complete that task ,flowchart can help us to deep understand what the instruction which written.
+
+Object and properties -object: anything in real life like human ,car ,home these object has properties ,event and method
+event: the interaction with object will change the value of the properties -method: its like function asset if instruction in side it
+Document object used to change the content in page .
+-the browser using JavaScript interpreter to translate your instruction.66
+
+-What is JavaScript? Programing language to to doing math and logical operator .
+
+Why? to interaction and dynamic
+
+How : 1.inside HTML structure using script tag  »> 2. external : create file script outside then called it by using script tag and src attribute to tell browser the location script file
