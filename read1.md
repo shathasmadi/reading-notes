@@ -1,42 +1,101 @@
-Introduction (pp.2-11)
-HTML: is used to create web pages
-CSS: uses rules to enable you to control the styling and layout of web pages
-When you ask your browser for a web page, the request is sent across the Internet to a special computer known as a web server which hosts the website.
-All websites use HTML and CSS, but content management systems, blogging software, and e-commerce platforms often add a few more technologies into the mix.
-HTML Chapter 1: “Structure” (pp.12-39)
-HTML pages are text documents.
-HTML uses tags (characters that sit inside angled brackets) to give the information they surround special meaning.
-Tags are often referred to as elements.
-Tags usually come in pairs. The opening tag denotes the start of a piece of content; the closing tag denotes the end.
-Opening tags can carry attributes, which tell us more about the content of that element.
-To learn HTML you need to know what tags are available for you to use, what they do, and where they can go.
-<meta> : The <meta> element lives inside the <head> element and contains information about that web page. ` description, keywords, robots, author, pragma, expires, ` There are some characters that are used in and reserved by HTML code.
+# **HTML Notes:**
 
-Chapter 17: HTML Layout
-Header tag used in top main page contains title and link.
-Footer tag its latest section in body we add inside it like copy ,phone
-Nav tag its used to indicated that block of link
-Article tag acts container for any section of page
-Section tag group related content together and typically each section have own heading h1,h2
-Heading group used hgroup tag which group h1,h2,h6 tag together .
-Div tag used when the tags not suitable
-Chapter 18 : Process and Design
-Wireframe :is a simple sketch of the key information that need to go each page of a site.
-The primary aim of any kind of visual design is to communicate, organizing and priority information on page to help used to understand .
-Grouping and similarity to help simplify the information you present
-sit map allow you to plan the structure of a site.
-Javascript
--script is series of instruction that a computer can follow it to achieve a goal
 
--to approach writtin a script break down your goal into a series of tasks and then work out each step needed to complete that task ,flowchart can help us to deep understand what the instruction which written.
+## WHAT/WHY/HOW:
++ **WHAT**: HTML is HyperText Markup Language, it's the markup language used to create the structure of the web pages.
 
-Object and properties -object: anything in real life like human ,car ,home these object has properties ,event and method
-event: the interaction with object will change the value of the properties -method: its like function asset if instruction in side it
-Document object used to change the content in page .
--the browser using JavaScript interpreter to translate your instruction.66
++ **WHY**: without HTML the browser won't understand your code and won't differentiate between different text types (headding, image, paragraph).
 
--What is JavaScript? Programing language to to doing math and logical operator .
++ **HOW**: HTML elements consists of openning tag, closing tag, content and attributes.
+  > example: `<p id='greeting'>hi</p>`.
 
-Why? to interaction and dynamic
+  > where:  `<p>` is the openning tag.
+  > `</p>` is the closing tag.
+  > `id='greeting'` arttribute.
+  > `hi` content.
 
-How : 1.inside HTML structure using script tag  »> 2. external : create file script outside then called it by using script tag and src attribute to tell browser the location script file
+## Example:
+  ```HTML
+  <!DOCTYPE html> this tag used to tell the browser that we use HTML5
+  <html> this tag used to tell the browser that all the content inside is HTML
+    <head> this tag used to put all the information about the page
+      <title></title> this tag used to specify the page title.
+    </head>
+    <body> this tag used to put inside it everything that will dispaly in the page window.
+
+    </body>
+  </html>
+  ```
+## Definitions list:
++ HTML >> HyperText Markup Language.
++ CSS >> Cascading Style Sheets.
++ Browser >> Software for access the world wide web.
++ DNS >> Domain Name System.
++ Tag >> keywords used in HTML defines how web browser will format and display the content. Like (`<P>`)
++ Attribute >> special words used inside the opening tag to control the element's behaviour. Like (`<p id='p1'>`)
++ File extenstion >> is the suffix at the end of a filename that indicates what type of file it is. Like (.html)
++ Block Elements >> HTML elements which starts a new line. Like (`<h1>, <p>, <ul>`).
++ Inline Elements >> HTML elements which continue on the same line. Like (`<a>, <span>, <img>`).
++ Site maps >> diagram of the pages that will be used to structure your site. 
++ Wireframes >> is a sketch that shows how your web page will look like.
+
+## Cheat sheet:
++ `<!DOCTYPE>` Defines the document type
++ `<html>` Defines an html document
++ `<head>` Defines information about the document
++ `<title>` Defines the document title
++ `<body>` Defines a body element
++ `<!-- -->` Defines a comment
++ `<h1> to <h6>` Defines header 1 to header 6 
++ `<p>` Defines a paragraph
++ `<a>` Defines a hyperlink
++ `<img>` Defines an image
++ `<ul>` Defines an unordered list
++ `<script>` Defines a javascript code
++ `<style>` Defines a CSS code
+
+## Quiz:
+ > *create a basic HTML web page structure that have a header (h1) and paragraph. give the header (id) attribute and give the paragraph (class) attribute.*
+
+
+# **Javascript Notes:**
+
+
+## WHAT/WHY/HOW:
++ **WHAT**: Javascript is a programming language that allows you to make the web pages interactive.
+
++ **WHY**: Javascript convert a web page from static to dynamic, and it contain loops, conditions, math, functions.
+
++ **HOW**: You can add Javascript to your code internally by using `<script>` tag inside the HTML page, or externlly by creating (.js) file and link it to the HTML page (`<script src="script.js"></script>`)
+
+## Example:
+```javascript
+document.write('Hello, world')
+```
++ `document` is the object, the object represent the entire web page.
++ `.` is the member operator, each object contain several methods and to access the member e use dot `.`.
++ `write()` is a method, this method allow me to write on the HTML page.
++ `'Hello, world'` is a parameter of the `write()` method.
+
+## Definitions list:
+
++ Script >> is a sequence of instructions that executed step by step by the computer to achieve a goal.
++ Flowchart >> high level view of the a script tasks.
++ Objects >> Representation of a physical thing.
++ Propertites >> tell us about the object characteristics.
++ Methods >> perform tasks using the propertites of an object.
++ Events >> triggered when a user interacts with the page (click, hover..etc)
+
+## Cheat sheet:
+
++ `var` Defines a variable
++ `document.write()` Write directly to the HTML document
++ `if (condition) { code }` If Statement
++ `prompt()` Creates an dialogue for user input
++ `console.log()` Writes information to the browser console, used for deevelopers.
++ `alert()` Output data in an alert box in the browser window
++ `//` single line comment
++ `/* */` Multi line comment
+  
+## Quiz:
+> *Write A javascript code to add a (hello, world) text to the web page. create extenal javascript file and link it to your HTML page.*
