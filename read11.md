@@ -31,7 +31,7 @@ height: 300px;
 width: 100%;
 }</style>
 
-<html><img src='./img/teamAttack.jpg'></html>
+<html><img src='./img/teamAttack.jpg'</html>
 
 The <video\> and <audio\> elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this:
 ```
