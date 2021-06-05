@@ -35,3 +35,17 @@ I am Shatha Al-Smadi, I am 24 years old. I studied software engineering at the H
 |read14|[calss14](read14.md)|
 |read15|[calss15](read15.md)|
 
+#Code 301 Reading Notes:
+
+|assignment |link|
+|-----------|----|
+|read1|[calss1]()|
+|read2|[class2]()|
+|read3|[class3]()|
+|read4|[class4]()|
+|read5|[class5]()|
+|read6|[class6]()|
+|read7|[calss7]()|
+|read8|[class8]()|
+|read9|[class9]()|
+
