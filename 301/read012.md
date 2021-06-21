@@ -76,4 +76,4 @@
 
 ## Things I want to know more about
 
-- SQL databas
+- SQL database
