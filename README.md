@@ -1,7 +1,7 @@
-#raeding-notes
+# raeding-notes
 
 
-#introduction ..
+# introduction ..
 
 I am Shatha Al-Smadi, I am 24 years old. I studied software engineering at the Hashemite University and I have a background on a web application developer through the university as well as training with a company for 3 months.
 
@@ -14,8 +14,8 @@ I am Shatha Al-Smadi, I am 24 years old. I studied software engineering at the H
 |read05|[class5](read05.md)|
 |read06|[class6](read06.md)|
 
-
-#Code 201 Reading Notes:
+ 
+# Code 201 Reading Notes:
 
 |assignment |link|
 |-----------|----|
@@ -35,7 +35,7 @@ I am Shatha Al-Smadi, I am 24 years old. I studied software engineering at the H
 |read14|[calss14](read14.md)|
 |read15|[calss15](read15.md)|
 
-#Code 301 Reading Notes:
+# Code 301 Reading Notes:
 
 |assignment |link|
 |-----------|----|
