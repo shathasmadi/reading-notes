@@ -1,4 +1,4 @@
-# Read: Class 02 Arrays, Loops, Imports
+# Read: Class 2 Arrays, Loops, Imports
 
 ## [Packages and Import](https://perso.ensta-paris.fr/~diam/java/online/notes-java/language/10basics/import.html)
 

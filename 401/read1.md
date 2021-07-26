@@ -1,4 +1,4 @@
-# Read: Class 01 Java Basics
+# Read: Class 1 Java Basics
 
 ## [Java Basics](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
 
