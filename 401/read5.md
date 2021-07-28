@@ -1,6 +1,6 @@
 # Read: Class 5 Read: 5 - Linked List
 
-## Add a node after a given value(6 steps)
+## Add a node after a given value in these steps:
 
 If you want to add a node after a given value, follow these steps:
 
