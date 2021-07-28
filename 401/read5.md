@@ -1,4 +1,4 @@
-# Read: Class 05 Read: 05 - Linked List
+# Read: Class 5 Read: 5 - Linked List
 
 ## Add a node after a given value(6 steps)
 
