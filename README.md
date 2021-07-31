@@ -66,7 +66,7 @@ I am Shatha Al-Smadi, I am 24 years old. I studied software engineering at the H
 |read3|[class3](401/read3.md)|
 |read4|[class4](401/read4.md)|
 |read5|[class5](401/read5.md)|
-|read6|[class6]()|
+|read6|[class6](401/read6.md)|
 |read7|[calss7]()|
 |read8|[class8]()|
 |read9|[class9]()|
