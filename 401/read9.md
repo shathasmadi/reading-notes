@@ -210,5 +210,4 @@ con.getHeaderFields().entrySet().stream()
       fullResponseBuilder.append("\n");
 });
 
-// Finally, we'll read the response content
-```
+
