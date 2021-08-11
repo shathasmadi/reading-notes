@@ -21,7 +21,7 @@ A tree is a non linier data structure that is like a list but that uses nodes st
   * K - A : number specify the max number of children that node can have.
 
   * Tree Example:
-  ![TREE EXAMPLE](https://codefellows.github.io/common_curriculum/data_structures_and_algorithms/Code_401/class-15/resources/images/BinaryTree1.PNG) 
+  
 
 ## Traversals 
 
