@@ -63,7 +63,7 @@ That means you can use Room entities to define your database schema without writ
 
 * Anatomy of an entity: You define each Room entity as a class that is annotated with ```@Entity```. A Room entity includes fields for each column in the corresponding table in the database, including one or more columns that comprise the primary key.
 
-* Define a primary key: Each Room entity must define a primary key that uniquely identifies each row in the corresponding database table. The most straightforward way of doing this is to annotate a single column with ```@PrimaryKey```:
+* Define a primary key: Each Room entity must define a primary key that uniquely identifies each row in the corresponding database table. The most straightforward way of doing this is to annotate a single column with ```@PrimaryKey```.
 
 ```
 @PrimaryKey
