@@ -1,4 +1,6 @@
-# Read: 29 - Room
+# Read 29 : Room
+
+***
 
 ## Save data in a local database using Room   
 
@@ -43,6 +45,7 @@ dependencies {
     implementation "androidx.room:room-paging:2.4.0-alpha04"
 }
 ```
+***
 
 ## There are three major components in Room:
 1. The database class that holds the database and serves as the main access point for the underlying connection to your app's persisted data.
@@ -60,16 +63,16 @@ That means you can use Room entities to define your database schema without writ
 
 * Anatomy of an entity: You define each Room entity as a class that is annotated with ```@Entity```. A Room entity includes fields for each column in the corresponding table in the database, including one or more columns that comprise the primary key.
 
-* Define a primary key: Each Room entity must define a primary key that uniquely identifies each row in the corresponding database table. The most straightforward way of doing this is to annotate a single column with @PrimaryKey:
+* Define a primary key: Each Room entity must define a primary key that uniquely identifies each row in the corresponding database table. The most straightforward way of doing this is to annotate a single column with ```@PrimaryKey```:
 
 ```
 @PrimaryKey
 public int id;
 ```
 
-* Define a composite primary key: If you need instances of an entity to be uniquely identified by a combination of multiple columns, you can define a composite primary key by listing those columns in the primaryKeys property of @Entity.
+* Define a composite primary key: If you need instances of an entity to be uniquely identified by a combination of multiple columns, you can define a composite primary key by listing those columns in the primaryKeys property of ```@Entity```.
 
-* Ignore fields: By default, Room creates a column for each field that's defined in the entity. If an entity has fields that you don't want to persist, you can annotate them using @Ignore.
+* Ignore fields: By default, Room creates a column for each field that's defined in the entity. If an entity has fields that you don't want to persist, you can annotate them using ```@Ignore```.
 
 * Provide table search support: Room supports several types of annotations that make it easier for you to search for details in your database's tables. Use full-text search unless your app's minSdkVersion is less than 16.
 
