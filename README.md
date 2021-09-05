@@ -84,3 +84,4 @@ I am Shatha Al-Smadi, I am 24 years old. I studied software engineering at the H
 |read29|[class29](401/read29.md)|
 |read30|[class30](401/read30.md)|
 |read31|[class31](401/read31.md)|
+|read32|[class32](401/read32.md)|

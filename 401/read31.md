@@ -6,7 +6,7 @@
  * espresso-web - Contains resources for WebView support.
  * espresso-idling-resource - Espresso's mechanism for synchronization with background jobs.
  * espresso-contrib - External contributions that contain DatePicker, RecyclerView and Drawer actions, accessibility checks, and CountingIdlingResource.
-* espresso-intents - Extension to validate and stub intents for hermetic testing.
+ * espresso-intents - Extension to validate and stub intents for hermetic testing.
  * espresso-remote - Location of Espresso's multi-process functionality.
 
 ***
