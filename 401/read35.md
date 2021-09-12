@@ -53,7 +53,7 @@ A cycle is defined as a path of a positive length that starts and ends at the sa
 
 ### Real World Uses of Graphs
 
-Graphs are extremely popular when it comes to it’s uses. Here are just a few examples of graphs in use:
+* Graphs are extremely popular when it comes to it’s uses. Here are just a few examples of graphs in use:
 
 1. GPS and Mapping
 2. Driving Directions
