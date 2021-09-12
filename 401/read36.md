@@ -1,4 +1,4 @@
-# Read: 36 Cognito
+# Read 36 : Cognito
 
 ## [Amplify and Cognito](https://docs.amplify.aws/lib/auth/getting-started/)
 
