@@ -1,4 +1,4 @@
-# Read 42-2: Ethics in Tech
+# Read 42-b: Ethics in Tech
 
 ## Code of Ethics
 
